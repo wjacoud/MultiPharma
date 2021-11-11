@@ -51,7 +51,7 @@ três sprints e mais de 150 user stories. A seguir é possível ter acesso ao co
 - [US 26 - Registar um novo estafeta](UserStories/RegisterNewCourier/ProcessoEngenhariaFuncionalidade.md)
 - [US 34 - Importar grafo a partir de ficheiros CSV](UserStories/ImportGraphFromCSVfiles/ProcessoEngenhariaFuncionalidade.md)
 - [US 39 - Optimizar rota de entrega](UserStories/OptimiseTheDeliveryPath/ProcessoEngenhariaFuncionalidade.md)
-- [US 41 - Estimat energia necessária para realizar uma Delivery Run](UserStories/EstimateAmountOfEnergyRequiredToPerformDelivery Run/ProcessoEngenhariaFuncionalidade.md)
+- [US 41 - Estimat energia necessária para realizar uma Delivery Run](UserStories/EstimateAmountOfEnergyRequiredToPerformDeliveryRun/ProcessoEngenhariaFuncionalidade.md)
 - [US 46 - Executar uma entrega](UserStories/MakeDeliveryRun/ProcessoEngenhariaFuncionalidade.md)
 - [US 47 - Implementar Componente C e Modulos Assembly](UserStories/DockSimulator/ProcessoEngenhariaFuncionalidade.md)
 - [US 59 - Adicionar uma nova Farmácia](UserStories/AddNewPharmacy/ProcessoEngenhariaFuncionalidade.md)

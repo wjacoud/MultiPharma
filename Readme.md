@@ -1,139 +1,66 @@
-# README
+# ISEP - Instituto Superior de Engenharia do Porto
+# Lab/Project 3 [LAPR3] - 2020/2021
 
-This is the repository template used for student repositories in LAPR Projets.
+# Sistema de gestão de produtos, clientes, encomendas e entregas para uma companhia farmacêutica
 
-## Java source files
+## Membros de equipa - GRUPO 10
 
-Java source and test files are located in folder src.
+- Carlos Moutinho – 1140858
+- Duarte Valente – 1181489
+- Leonardo Coelho – 1171317
+- Wilson Junior – 1200630
 
-## Maven file
+## Prefácio
+Serve o presente relatório para apresentar o trabalho desenvolvido no âmbito da cadeira de
+laboratório de projeto do terceiro ano do curso de licenciatura em engenharia informática.
+Este relatório aborda de um modo geral algumas metodologias usadas no desenvolvimento de software,
+quer a nível pessoal quer em grupo. Os itens apresentados a seguir foram submetidos a processos
+e conceitos distintos de acordo com as melhores práticas da engenharia de software.
 
-Pom.xml file controls the project build.
+    - Levantamento de Requisitos
+    - Análise dos Requisitos
+    - Design e Modelação
+    - Implementação de classes, métodos, controladores e testes.
+    - Execução dos testes e correção de falhas.
+    - Composição e organização da documentação.
 
-# Notes
-In this file, DO NOT EDIT the following elements:
+Foi utilizada a metodologia Scrum na gestão do projeto, onde o mesmo foi dividido em
+três sprints e mais de 150 user stories. A seguir é possível ter acesso ao conteúdo de cada uma delas.
+    
+## Índice
 
-* groupID
-* artifactID
-* version
-* properties
+- [Modelo Dominio](DomainModel/domain model.svg)
+- [Modelo Relacional](RelationalModel/LAPR RelationalModel.svg)
+- [Use Case Diagram](UseCaseDiagram/UseCaseDiagram.svg)
+- [Sprint Reviews](Sprints/SprintReviews.md)
+- [User Stories](UserStories/*)
 
-Beside, students can only add dependencies to the specified section of this file.
+## User Stories
 
-## Eclipse files
-
-The following files are solely used by Eclipse IDE:
-
-* .classpath
-* .project
-
-## IntelliJ Idea IDE files
-
-The following folder is solely used by Intellij Idea IDE :
-
-* .idea
-
-# How was the .gitignore file generated?
-.gitignore file was generated based on https://www.gitignore.io/ with the following keywords:
-
-  - Java
-  - Maven
-  - Eclipse
-  - NetBeans
-  - Intellij
-
-# Who do I talk to?
-In case you have any problem, please email Nuno Bettencourt (nmb@isep.ipp.pt).
-
-# How do I use Maven?
-
-## How to run unit tests?
-
-Execute the "test" goals.
-
-`$ mvn test`
-
-## How to generate the javadoc for source code?
-
-Execute the "javadoc:javadoc" goal.
-
-`$ mvn javadoc:javadoc`
-
-This generates the source code javadoc in folder "target/site/apidocs/index.html".
-
-## How to generate the javadoc for test cases code?
-
-Execute the "javadoc:test-javadoc" goal.
-
-`$ mvn javadoc:test-javadoc`
-
-This generates the test cases javadoc in folder "target/site/testapidocs/index.html".
-
-## How to generate Jacoco's Code Coverage Report?
-
-Execute the "jacoco:report" goal.
-
-`$ mvn test jacoco:report`
-
-This generates a jacoco code coverage report in folder "target/site/jacoco/index.html".
-
-## How to generate PIT Mutation Code Coverage?
-
-Execute the "org.pitest:pitest-maven:mutationCoverage" goal.
-
-`$ mvn test org.pitest:pitest-maven:mutationCoverage`
-
-This generates a PIT Mutation coverage report in folder "target/pit-reports/YYYYMMDDHHMI".
-
-## How to combine different maven goals in one step?
-
-You can combine different maven goals in the same command. For example, to locally run your project just like on jenkins, use:
-
-`$ mvn clean test jacoco:report org.pitest:pitest-maven:mutationCoverage`
-
-## How to perform a faster pit mutation analysis?
-
-Do not clean build => remove "clean"
-
-Reuse the previous report => add "-Dsonar.pitest.mode=reuseReport"
-
-Use more threads to perform the analysis. The number is dependent on each computer CPU => add "-Dthreads=4"
-
-Temporarily remove timestamps from reports.
-
-Example:
-
-`$ mvn test jacoco:report org.pitest:pitest-maven:mutationCoverage -DhistoryInputFile=target/fasterPitMutationTesting-history.txt -DhistoryOutputFile=target/fasterPitMutationTesting-history.txt -Dsonar.pitest.mode=reuseReport -Dthreads=4 -DtimestampedReports=false`
-
-## Where do I configure my database connection?
-
-Each group should configure their database connection on file: 
-
-* src/main/resources/application.properties
-
-# Oracle repository
-
-If you get the following error:
-
-```
-[ERROR] Failed to execute goal on project 
-bike-sharing: Could not resolve dependencies for project 
-lapr3:bike-sharing:jar:1.0-SNAPSHOT: 
-Failed to collect dependencies at 
-com.oracle.jdbc:ojdbc7:jar:12.1.0.2: 
-Failed to read artifact descriptor for 
-com.oracle.jdbc:ojdbc7:jar:12.1.0.2: 
-Could not transfer artifact 
-com.oracle.jdbc:ojdbc7:pom:12.1.0.2 
-from/to maven.oracle.com (https://maven.oracle.com): 
-Not authorized , ReasonPhrase:Authorization Required. 
--> [Help 1]
-```
-
-Follow these steps:
-
-https://blogs.oracle.com/dev2dev/get-oracle-jdbc-drivers-and-ucp-from-oracle-maven-repository-without-ides
-
-You do not need to set a proxy.
-
-You can use existing dummy Oracle credentials available at http://bugmenot.com.
+- [US 1 - Criar um novo  registo de Cliente](UserStories/SignUpController/ProcessoEngenhariaFuncionalidade.md)
+- [US 3 - Novo Cliente](UserStories/AddNewClient/ProcessoEngenhariaFuncionalidade.md)
+- [US 4 - Associar uma Morada e respetivas coordenadas GPS ao registo de um novo CLiente](UserStories/AssociateAddressToClientRegistry/ProcessoEngenhariaFuncionalidade.md)
+- [US 5 - Associar um cartão de crédito a um novo CLiente](UserStories/AssociateCreditCardRegistry/ProcessoEngenhariaFuncionalidade.md)
+- [US 7 - Criar Parques e associar à Farmácia](UserStories/AddParkToPharmacy/ProcessoEngenhariaFuncionalidade.md)
+- [US 19 - Mostrar Creditos de um cliente](UserStories/SeeClientCredits/ProcessoEngenhariaFuncionalidade.md)
+- [US 20 - Definir uma taxa de entrega](UserStories/AddNewTaxaEntrega/ProcessoEngenhariaFuncionalidade.md)
+- [US 22 - Importação da Estimativa de tempo para carga completa de um arquivo CSV](UserStories/ImportTimeEstimateFromCSVfile/ProcessoEngenhariaFuncionalidade.md)
+- [US 23 - Associar Scooter a uma farmácia](UserStories/AssotiateScooterToPharmacy/ProcessoEngenhariaFuncionalidade.md)
+- [US 24 - Update Scooter](UserStories/UpdateScooter/ProcessoEngenhariaFuncionalidade.md)
+- [US 25 - Remove Scooter](UserStories/RemoveScooter/ProcessoEngenhariaFuncionalidade.md)
+- [US 26 - Registar um novo estafeta](UserStories/RegisterNewCourier/ProcessoEngenhariaFuncionalidade.md)
+- [US 34 - Importar grafo a partir de ficheiros CSV](UserStories/ImportGraphFromCSVfiles/ProcessoEngenhariaFuncionalidade.md)
+- [US 39 - Optimizar rota de entrega](UserStories/OptimiseTheDeliveryPath/ProcessoEngenhariaFuncionalidade.md)
+- [US 41 - Estimat energia necessária para realizar uma Delivery Run](UserStories/EstimateAmountOfEnergyRequiredToPerformDelivery Run/ProcessoEngenhariaFuncionalidade.md)
+- [US 46 - Executar uma entrega](UserStories/MakeDeliveryRun/ProcessoEngenhariaFuncionalidade.md)
+- [US 47 - Implementar Componente C e Modulos Assembly](UserStories/DockSimulator/ProcessoEngenhariaFuncionalidade.md)
+- [US 59 - Adicionar uma nova Farmácia](UserStories/AddNewPharmacy/ProcessoEngenhariaFuncionalidade.md)
+- [US 60 - Adicionar um novo produto](UserStories/AddNewProduto/ProcessoEngenhariaFuncionalidade.md)
+- [US 64 - Fazer um pedido](UserStories/MakeOrder/ProcessoEngenhariaFuncionalidade.md)
+- [US 77 - Associar um utilizador ao registo](UserStories/AssociateUserToClientRegistry/ProcessoEngenhariaFuncionalidade.md)
+- [US 78 - Calcular estimativa de tempo de carregamento](UserStories/EstimateTimeForFullCharge/ProcessoEngenhariaFuncionalidade.md)
+- [US 89 - Atualizar um produto em estoque](UserStories/UpdateStockProduto/ProcessoEngenhariaFuncionalidade.md)
+- [US 98 - Notificar o Estafeta com uma estimativa do tempo restante para carregamento completo](UserStories/NotifyCourierOfTimeEstimateToFullCharge/ProcessoEngenhariaFuncionalidade.md)
+- [US 158 - Remover um Drone da Farmacia](UserStories/RemoveDrones/ProcessoEngenhariaFuncionalidade.md)
+- [US 159 - Atualizar uma Scooter da Farmacia](UserStories/UpdateDrone/ProcessoEngenhariaFuncionalidade.md)
+- [US 162 - Associar Drone a uma Farmacia](UserStories/AssotiateDronesToPharmacy/ProcessoEngenhariaFuncionalidade.md)

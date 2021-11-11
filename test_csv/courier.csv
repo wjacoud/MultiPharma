@@ -1,0 +1,10 @@
+#lines starting with # should be ignored
+#Column description
+#ename - the name of the courier e.g. Fernando Mendes
+#nif - the tax identification number e.g. 123456789
+#niss - the tax identification number e.g. 123456789
+#weight - the courier mass in Kg with no decimal places e.g. 100
+#e-mail - the e mail address that the courier used when he registed in the system e.g. espetaculo@rtp.pt
+#password - the password that will be assign to the user account
+ename;nif;niss;weight;e-mail;pass
+SuperRapidoFF;333333333;333333333;100;1140858@isep.com;qwerty

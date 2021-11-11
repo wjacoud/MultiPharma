@@ -1,0 +1,24 @@
+#lines starting with # should be ignored
+#Column description
+#country - name of the country e.g. Portugal
+#district - the district of the address e.g. Porto
+#locality - the locality of the address  e.g. Gondomar
+#zip_code - zip code related to this address e.g. 4000-222
+#latitude - latitude related to this address e.g. -41
+#longitude - longitude related to this address e.g. -8
+country;district;locality;zip_code;latitude;longitude
+Portugal;Porto;Trindade;4200-100;41.151166062;-8.605664244
+Portugal;Porto;Estadio Dragao;4400-000;41.161758;-8.583933
+Portugal;Porto;Casa da Musica;4400-000;41.155166046;-8.625164166
+Portugal;Porto;Vila do Conde;4400-000;41.3499986;-8.749997
+Portugal;Porto;Ponto D Luis;4400-000;41.139863;-8.609336
+Portugal;Porto;Estadio Bessa;4400-000;41.157332704;-8.638997444
+Portugal;Porto;Palacio da Bolsa;4400-000;41.141;-8.616
+Portugal;Porto;Torre dos Clerigos;4400-000;41.140666104;-8.608830898
+Portugal;Porto;Estacao S Bento;4400-000;41.145;-8.61
+Portugal;Porto;ISEP;4400-000;41.173499306;-8.604830914
+Portugal;Porto;Funicular dos Guindais;4400-000;41.141;-8.60951
+Portugal;Porto;Ermesinde;4400-000;41.2166658;-8.5499978
+Portugal;Porto;Penafiel;4400-000;41.1999992;-8.2833322
+Portugal;Porto;Gondomar;4400-000;41.15;-8.533
+Portugal;Porto;Valongo;4400-000;41.1833326;-8.499998

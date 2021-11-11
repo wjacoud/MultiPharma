@@ -1,0 +1,10 @@
+#lines starting with # should be ignored
+#Column description
+#e-mail - the e mail address of the user e.g. user@superemail.org
+#pass - the password e.g. querty
+e-mail;pass
+admin@farmacia.pt;123
+cliente@compra.pt;123
+espetaculo@rtp.pt;321
+yes@wecan.usa;321
+FF@EMAIL.COM;123

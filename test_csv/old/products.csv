@@ -1,0 +1,10 @@
+#lines starting with # should be ignored
+#Column description
+#name - name of the product e.g. Vacina Covid
+#weight - the weight of the product in Kg with no decimal places e.g. 2
+#unit_price - the weight of the product in Kg with no decimal places e.g. 20.2
+#vat - value-added tax related to this product e.g. 17
+name;weight;unit_price;vat
+Vacina Covid;2;20;6
+Vacina Gripe;1;15;6
+ben u ron;1;5;6

@@ -1,0 +1,8 @@
+#lines starting with # should be ignored
+#Column description
+#start_date - the starting date of the delivary tax e.g. 01-05-2020
+#end_date - the ending date of the delivary tax e.g. 01-05-2020
+#value - the value related to the delivary tax e.g. 10
+#description - the description related to that delivary tax
+start_date;end_date;value;description
+01-05-2020; null; 1; Taxa Unica

@@ -1,0 +1,10 @@
+#lines starting with # should be ignored
+#Column description
+#scooter_id - the serial number that identify the type of scooter e.g. 22010
+#weight - the scooter mass in Kg with no decimal places e.g. 100
+#max_battery_capacity - the battery max capacity in kWh e.g. 1000
+#motor - scooter motor in Wh e.g. 750Wh
+scooter_id;weight;max_battery_capacity;motor
+20220;100;1000;750
+20221;120;750;700
+20223;90;500;500

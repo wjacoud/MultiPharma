@@ -1,0 +1,42 @@
+#lines starting with # should be ignored
+#Column description
+#country - name of the country e.g. Portugal
+#district - the district of the address e.g. Porto
+#locality - the locality of the address  e.g. Farm�cia Sousa Torres
+#zip_code - zip code related to this address e.g. 4425-500
+#latitude - latitude related to this address e.g. 41.21988872649243
+#longitude - longitude related to this address e.g. -8.560844244287741
+#altitude - altitude related to this address e.g. 83.0
+ID;COUNTRY;DISTRICT;LOCATION;ZIPCODE;LATITUDE;LONGITUDE;ELEVATION
+1;Portugal;Porto;Farmacia Sousa Torres;4425-500;41.21988872649243;-8.560844244287741;83.0
+2;Portugal;Porto;Farmacia Guifoes;4460-033;41.200209211014254;-8.66612165963382;74.0
+3;Portugal;Porto;Farmacia Marques da Cunha;4440-539;41.197847836044005;-8.49953265777934;152.0
+4;Portugal;Porto;Farmacia sa;4200-512;41.16720560257911;-8.611811944289354;128.0
+5;Portugal;Porto;Farmacia Avenida;4100-116;41.16068759806137;-8.643707544289535;71.0
+6;Portugal;Porto;Farmacia de Fanzeres;4510-554;41.161330796198435;-8.531373115453192;91.0
+7;Portugal;Porto;Farmacia Sa da Bandeira;4000-428;41.148556890996545;-8.607934557780853;87.0
+8;Portugal;Porto;Farmacia Couto;4430-193;41.126196116271316;-8.605913315454266;106.0
+9;Portugal;Porto;Centro Comercial Plaza;4470-308;41.23358815517743;-8.621546030796422;107.0
+10;Portugal;Porto;MAR Shopping Matosinhos;4450-337;41.209209900304124;-8.687308544288063;48.0
+11;Portugal;Porto;Centro de Distribuicao dos Correios de Ermesinde;4445-271;41.20278483165161;-8.544967201961018;138.0
+12;Portugal;Porto;Posto Correios Forno;4435-318;41.192778431635396;-8.575882773124926;143.0
+13;Portugal;Porto;Post Office Valongo;4440-999;41.1901742388616;-8.497543486615918;143.0
+14;Portugal;Porto;centro comercial parque;4450-023;41.184724907345895;-8.6820263712706;35.0
+15;Portugal;Porto;Centro Comercial New City;4450-149;41.18252916007317;-8.692251486616177;12.0
+16;Portugal;Porto;NorteShopping;4460-841;41.18100613919961;-8.654576301961692;84.0
+17;Portugal;Porto;Pereira Post Office;4100-214;41.17267318741403;-8.654883457780116;75.0
+18;Portugal;Porto;CTT;4200-422;41.17163819028505;-8.612835344289259;132.0
+19;Portugal;Porto;Posto de Correios de Conde Ferreira;4200-995;41.17138354316737;-8.587913281052797;147.0
+20;Portugal;Porto;Centro Comercial do Carvalhido;4250-116;41.16798900643632;-8.630161873125706;95.0
+21;Portugal;Porto;Alameda Shop e Spot;4350-149;41.16393696565617;-8.584119928943991;120.0
+22;Portugal;Porto;Shopping Brasilia - Associacao Comerciantes;4100-359;41.15779299527318;-8.627815544289684;93.0
+23;Portugal;Porto;Tecofix Porto;4510-706;41.154117638873444;-8.54702134428977;85.0
+24;Portugal;Porto;Centro Comercial de Cedofeita;4050-181;41.15472365905325;-8.619082828944286;90.0
+25;Portugal;Porto;Traditional Shopping Street;4000-099;41.153643083644226;-8.604717015453392;127.0
+26;Portugal;Porto;Correios CTT Campo Alegre;4150-169;41.152929463807105;-8.631032144289847;84.0
+27;Portugal;Porto;Shop;4050-158;41.14811777655486;-8.615853259635431;92.0
+28;Portugal;Porto;Centro Comercial Stop;4300-256;41.14622077752827;-8.59495075963548;98.0
+29;Portugal;Porto;FISHISCO Pesca;4300-526;41.14445528625709;-8.575168057780964;16.0
+30;Portugal;Porto;Espiral Colossal;4000-051;41.143816028985675;-8.603392430799206;87.0
+31;Portugal;Porto;ArrabidaShopping;4400-346;41.1416523531837;-8.636453501962908;92.0
+32;Portugal;Porto;Praceta Salvador Caetano;4430-999;41.13328285819712;-8.608172601963169;70.0

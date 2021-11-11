@@ -1,0 +1,11 @@
+#lines starting with # should be ignored
+#Column description
+#order_date - date that order was created e.g. 01-05-2023
+#weight - the weight of the product in Kg with no decimal places e.g. 2
+#delivary_tax_id - the delivary tax id e.g. 2
+#client_id - the client id e.g. 2
+#pharmacy_id - the pharmacy id that is related to this orders e.g. 5
+order_date;weight;delivary_tax_id;client_id;pharmacy_id
+5;01-05-2023;100;1;1;1
+1;01-05-2023;100;1;2;1
+2;01-05-2023;100;1;1;1

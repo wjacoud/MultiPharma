@@ -1,0 +1,9 @@
+#lines starting with # should be ignored
+#Column description
+#backpack_capacity  - the scooter storage space in Kg with no decimal places e.g. 12
+#pharmacy_id - a reference that identify the pharmacy e.g. 1
+#scooter_type_id - a reference that identify the scooter type e.g. 20200
+backpack capacity;pharmacy_id;scooter_type_id
+10;1;1
+12;1;2
+5;2;2

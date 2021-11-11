@@ -1,0 +1,23 @@
+#lines starting with # should be ignored;;;;;;;;;;;;;
+#Column description;;;;;;;;;;;;;
+#name - name of the client e.g. Portugal;;;;;;;;;;;;;
+#nif - fiscal id number;;;;;;;;;;;;;
+#credit - value that indicates how many credit the client have in our system e.g. 10;;;;;;;;;;;;;
+#address_id - a reference that identify the address  e.g. 10;;;;;;;;;;;;;
+#e_mail - a reference that identify the e mail address e.g. espetaculo@rtp.pt;;;;;;;;;;;;;
+#credit_card_id - a reference that identify the credit card e.g. 1;;;;;;;;;;;;;
+#country - name of the country e.g. Portugal;;;;;;;;;;;;;
+#district - the district of the address e.g. Porto;;;;;;;;;;;;;
+#locality - the locality of the address  e.g. Gondomar;;;;;;;;;;;;;
+#zip_code - zip code related to this address e.g. 4000-222;;;;;;;;;;;;;
+#latitude - latitude related to this address e.g. -41;;;;;;;;;;;;;
+#longitude - longitude related to this address e.g. -8;;;;;;;;;;;;;
+#e-mail - the e mail address of the user e.g. user@superemail.org;;;;;;;;;;;;;
+#pass - the password e.g. querty;;;;;;;;;;;;;
+#number - the number of the credit card e.g. 4040404040101010;;;;;;;;;;;;;
+#cvv -  the cvv of the credit card;;;;;;;;;;;;;
+#validate - the validate of the credit card as date as YYYY-MM-DD e.g. 2021-01-26;;;;;;;;;;;;;
+name;nif;credit;country;district;locality;zip_code;latitude;longitude;e-mail;pass;number;cvv;validate
+Joao Melao;456789123;0;Portugal;Porto;Trindade;4200-100;41.151166062;-8.605664244;ggg@farmacia.pt;123;4040000044444040;300;2030-12-31
+Fernando Mendes;745321698;10;Portugal;Porto;Estadio Dragao;4400-000;41.161758;-8.583933;espetaculo@rtp.pt;321;4040000044444040;400;2030-12-31
+Barack Obama;795214999;0;Portugal;Porto;Casa da Musica;4400-000;41.155166046;-8.625164166;cliente@compra.pt;123;4040000044444040;350;2030-12-31

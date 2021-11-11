@@ -1,0 +1,21 @@
+#lines starting with # should be ignored
+#Column description
+#name - name of the pharmacy e.g. Pharmacy da Trindade
+#nipc - the nipc of the pharmacy e.g. 123456789
+#address_id - a reference that identify the address e.g. 1
+name;nipc;address_id
+Farmacia da Trindade;123456789;1
+Farmacia do Estadio Dragao;223456789;2
+Farmacia da Casa da Musica;323456789;3
+Farmacia de Vila de Conde;423456789;4
+Farmacia da Ponto D Luis;523456789;5
+Farmacia do Estadio Bessa;623456789;6
+Farmacia do Palacio da Bolsa;723456789;7
+Farmacia da Torre dos Clerigos;823456789;8
+Farmacia da Estacao S Bento;923456789;9
+Farmacia do ISEP;233456789;10
+Farmacia do Funicular dos Guindais;243456789;10
+Farmacia de Ermesinde;253456789;10
+Farmacia de Penafiel;263456789;11
+Farmacia de Gondomar;273456789;12
+Farmacia de Valongo;283456789;12

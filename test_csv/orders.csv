@@ -1,0 +1,9 @@
+#lines starting with # should be ignored;;
+#Column description;;
+#client_id - the client id e.g. 2;;
+#pharmacy_id - the pharmacy id that is related to this orders e.g. 5;;
+client_id;produto_id;qtd
+1;1;2
+1;2;3
+2;1;2
+2;2;2

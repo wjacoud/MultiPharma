@@ -1,0 +1,9 @@
+#lines starting with # should be ignored
+#Column description
+#address_id - a reference that identify the address e.g. 1
+#pharmacy_id - a reference that identify the pharmacy e.g. 1
+#voltages - the voltages of the park e.g. 2000
+#spots_with_charges - charge capability of that place e.g. 200
+#spots_without_charges - number of spots that don't have charging e.g.10
+addressID;pharmacyID;voltage;spots_with_charges;spots_without_charges
+1;1;20;3;2

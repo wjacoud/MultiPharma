@@ -1,0 +1,10 @@
+#lines starting with # should be ignored
+#Column description
+#quantity - quantity of the product with no decimal places e.g. 10
+#product_id -  a reference that identify the product e.g. 2
+#pharmacy_id - a reference that identify the pharmacy e.g. 1
+quantity;product_id;pharmacy_id
+100;1;1
+50;1;1
+20;2;2
+30;2;1
